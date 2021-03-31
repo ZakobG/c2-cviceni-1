@@ -3,8 +3,13 @@ package cz.educanet.praha;
 import java.util.Scanner;
 
 public class SumFromZeroTill {
-    public static int sumFromZeroTill(int max){
-        return 0;
+    public static int sumFromZeroTill(int num){
+        int vysledek = 0;
+        for(int i = num; i > 0; i--) {
+            vysledek = vysledek + i;
+        }
+
+        return vysledek;
     }
 
     public static void main(String[] args) {
