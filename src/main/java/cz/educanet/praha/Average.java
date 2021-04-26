@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class Average {
 
     public static double average(Scanner scanner) {
+
         while(scanner.hasNext()){
             System.out.println(scanner.nextInt());
         }
+
 
         return 1;
     }

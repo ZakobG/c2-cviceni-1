@@ -8,7 +8,6 @@ public class SumFromZeroTill {
         for(int i = num; i > 0; i--) {
             vysledek = vysledek + i;
         }
-
         return vysledek;
     }
 
